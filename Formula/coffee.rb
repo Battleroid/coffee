@@ -29,6 +29,7 @@ class Coffee < Formula
   # This creates a LaunchAgent plist for `brew services`
   service do
     run opt_bin/"Coffee"
+    run_at_load true
     keep_alive false
     process_type :interactive
   end

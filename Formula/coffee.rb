@@ -1,8 +1,8 @@
 class Coffee < Formula
   desc "macOS menu bar app to toggle caffeinate on/off"
-  homepage "https://github.com/cweed1/coffee"
-  url "https://github.com/cweed1/coffee/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "UPDATE_WITH_ACTUAL_SHA256"
+  homepage "https://github.com/Battleroid/coffee"
+  url "https://github.com/Battleroid/coffee/archive/refs/tags/v1.0.tar.gz"
+  sha256 "5b0a33588ef2c21386c54e669c3602694fa4b9764fe398d0c752942da128f3f3"
   license "MIT"
 
   depends_on :macos
